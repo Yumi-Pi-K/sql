@@ -177,10 +177,10 @@ CREATE TABLE temp.new_vendor AS
 
 SELECT *
 
-FROM vendor
+FROM vendor;
 
 INSERT INTO temp.new_vendor (vendor_id, vendor_name, vendor_type, vendor_owner_first_name, vendor_owner_last_name)
-VALUES (10,'Thomass Superfood Store','Fresh Focused','Thomas','Rosenthal')
+VALUES (10,'Thomass Superfood Store','Fresh Focused','Thomas','Rosenthal');
 
 --to see if it worked
 SELECT *
